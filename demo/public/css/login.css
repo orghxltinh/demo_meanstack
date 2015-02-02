@@ -1,0 +1,12 @@
+#loginApp{
+    background: #efefef; border-radius: 10px; padding: 10px; border: 3px solid #9f9f9f;
+    position: relative; overflow: hidden; clear: both; margin: auto; width: 30%; opacity: 0;
+}
+#loginApp label{ width: 30%; position: relative; float: left;}
+#loginApp .input-text{ width: 70%; float: left;}
+#loginApp .btn{
+    position: relative; display: table; margin: 0 auto;
+}
+#loginApp .one-clear{
+    overflow: hidden; margin: 5px 0;
+}

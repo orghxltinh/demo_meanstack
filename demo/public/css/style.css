@@ -1,0 +1,13 @@
+.product{
+    height: 200px; margin-bottom: 20px;
+}
+.product .image{
+    height: 170px; overflow: hidden;
+}
+.product .image img{
+    position: relative; width: 100%;
+}
+
+#product-item-view img{
+    position: relative; width: 100%;
+}

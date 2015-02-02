@@ -1,0 +1,25 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+    <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+    
+    <script src="/vendor/require/require.js" type="text/javascript" data-main='javascript/main/loader.js'></script>
+    
+    <title>
+        {{> title}}
+    </title>
+</head>
+<body id="mainApp">
+    <div class="container">
+        <div id="main-header" class="one-clear">
+            {{> header}}
+        </div>
+        <div id="main-body" class="container">
+            {{{body}}}
+        </div>
+    </div>
+</body>
+</html>

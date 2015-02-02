@@ -1,0 +1,352 @@
+/* CSS Document */
+body.disable_srolling{
+    height: 100%;
+    overflow: hidden;
+}
+div{
+	/*backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;*/
+}
+.one-left{ position: relative; float: left;}
+.one-right{ position: relative; float: right;}
+.one-clear{ position: relative; clear: both !important; float: none !important;}
+.one-clear:after{ position: relative; clear: both;}
+.one-clear:before{ position: relative; clear: both;}
+.orange{ color:#F90;}
+.blue{ color: #428bca;}
+.title{ font-size:22px;}
+.center{
+    position: relative; clear: both; margin: 0 auto; display: table;    
+}
+#header{ min-height:100px;}
+#container{ min-height: 300px; overflow: hidden;}
+
+/* ----------------------- Start: Vertical Menu ----------------------- */
+.vmenu-wrapper{
+    position: relative; clear: both;
+    border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+    box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; 
+    border: 1px solid #0095e6; margin-bottom: 20px;
+}
+.vmenu-wrapper .vmenu-content.last ul{
+    border-bottom:none !important;
+}
+.vmenu-wrapper #vmenu-bottom{
+    position: absolute; width: 100%; height: 6px; background: #ff9e00; left: 0px; bottom: 0px;
+    border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;
+}
+.vmenu-wrapper > div{
+    position: relative; clear: both;
+}
+.vmenu-wrapper #vmenu-title{
+  height: 36px; color: #efefef; cursor: default;   
+  /*background: url(../images/background/blue.png);*/
+  background: #0095e6;
+  border-top-left-radius: 2px; border-top-right-radius: 2px;
+}
+.vmenu-wrapper #vmenu-title > span{
+    position: relative; clear: both; display: block;top: 8px; text-align: center;
+    font-size: 17px; text-transform: uppercase;    
+}
+.vmenu-wrapper #vmenu-title #vmenu-icon{
+    position: absolute; width: 40px; height: 38px; top: -6px; left: 14px;
+    background: url(../images/honey_icon.png);
+}
+.vmenu-wrapper .vmenu-content{
+    line-height: 21px; background:#ffffff;
+}
+.vmenu-wrapper .vmenu-content.last{
+    border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;
+}
+.vmenu-wrapper .vmenu-content .text{
+    padding: 1px 0px 1px 26px; font-size: 12px;
+}
+.vmenu-wrapper .vmenu-content .minpadleft{
+    padding-left: 10px !important;
+}
+.vmenu-wrapper .vmenu-content .text > div{
+    position: absolute; width: 34%; height: 100%; right: 0px; top: 0px;
+}
+.vmenu-wrapper .vmenu-content #bullet{
+    position: absolute; width: 12px; height: 12px; top: 12px; right: 22px;
+    background: url(../images/bullets/blue_bullet.png) no-repeat; transform: rotate(0deg);   
+    -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); -moz-transform: rotate(0deg); 
+    -webkit-transition: -webkit-transform 0.4s ease; -o-transition: -webkit-transform 0.4s ease;
+    -moz-transition: -webkit-transform 0.4s ease; transition: -webkit-transform 0.4s ease;
+}
+.vmenu-wrapper .vmenu-content.selected #bullet{
+    transform: rotate(45deg);   
+    -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -moz-transform: rotate(45deg);
+}
+
+.vmenu-wrapper .vmenu-content .employee-infos{
+    overflow: hidden; padding: 5px 0 5px 5px; text-align: left;
+}
+.vmenu-wrapper .vmenu-content .employee-infos .employee-name{
+    width: 50%; color: #428bca;
+}
+.vmenu-wrapper .vmenu-content .employee-infos .employee-phone{
+    width: 50%;
+}
+
+.vmenu-wrapper .vmenu-content ul{
+    position: relative; clear: both; display: block; list-style: none; padding-left:0px; height: 38px;
+    margin-bottom: 0px; -webkit-transition: height 0.4s ease; -o-transition: height 0.4s ease;
+    -moz-transition: height 0.4s ease; transition: height 0.4s ease; overflow: hidden;
+    border-bottom: 1px solid #dedede; 
+}
+.vmenu-wrapper .vmenu-content ul a{
+    position: relative; clear: both; display: block; 
+}
+.vmenu-wrapper .vmenu-content ul span{
+    position: relative; clear: both; display: block; padding-left: 20px;
+}
+.vmenu-wrapper .vmenu-content ul a:hover{
+    text-decoration: none;
+}
+.vmenu-wrapper .vmenu-content ul > a{
+    height: 32px; color:#4b4c4c; text-transform: uppercase; font-size: 17px; margin: 4px 40px 6px 0px;    
+}
+.vmenu-wrapper .vmenu-content ul > a > span{
+    top: 6px;
+}
+.vmenu-wrapper .vmenu-content ul > a:hover{
+    color: #343536;
+}
+.vmenu-wrapper .vmenu-content ul > li{
+    position: relative; clear: both; height: 34px; display: block; 
+}
+/*#ff9e00*/
+.vmenu-wrapper .vmenu-content ul > li span{ width: 60%; margin: 0px 0px 0px 30px; color :#6c6c6c;}
+.vmenu-wrapper .vmenu-content ul > li span:hover{ color :#0095e6;}
+/* ----------------------- End: Vertical Menu ----------------------- */
+
+
+
+/* ----------------------- End: Seperated line ----------------------- */
+
+/* ----------------------- Start: header ----------------------- */
+
+/* ----------------------- End: header ----------------------- */
+
+/* ----------------------- Start: body ----------------------- */
+
+/* ---------------- Start: Product ---------------- */
+.product_item{
+    position: relative; float: left; width: 24.4%; height: 240px; margin:0px 0.3% 5px 0.3%;
+    border: 1px solid #bbbfc0; overflow: hidden; background: #ffffff;
+    box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;
+}
+.product_item #pd-image{
+    position: relative; clear: both; width: 100%; height: 80%; margin: 0 auto;
+    overflow: hidden;
+}
+.product_item > div > div{
+    position: relative; clear: both;
+}
+.product_item > div:hover{
+    
+}
+.product_item div#pd-title{
+    position: absolute; left:0px; bottom: 0px; width: 100%; height: 20%;
+    border-top: 1px solid #efefef;
+}
+.product_item #pd-image > img{
+    position: relative; clear: both; display: block; width: 98%;
+    border-image: none; border: none; top: 2%; margin: 0 auto;
+}
+.product_item #pd-image #pd-slide-up{
+    position: absolute; width: 100%; display: block; height: 34px; left: 0; bottom: -34px;
+    background: rgba(40,40,40,0.3); 
+    text-decoration: none;
+    -webkit-transition: bottom 0.3s ease; -o-transition: bottom 0.3s ease;
+    -moz-transition: bottom 0.3s ease; transition: bottom 0.3s ease;
+}
+.product_item #pd-image .pd-link{
+    position: relative; float: left; display: block; box-sizing: border-box;
+    width: 50%; height: 100%; /*border-top: 1px solid rgba(57,122,178,0.2); */
+    color: #ffffff; padding: 5px 0px 0px 6px; text-decoration: none;
+}
+.product_item #pd-image #pd-order{
+    
+    background: url(../images/cart.png) no-repeat 65px 3px;
+}
+.product_item #pd-image #pd-detail{
+    border-right: 1px solid rgba(57,57,57,0.1);
+    background: url(../images/detail.png) no-repeat 65px 3px;
+}
+.product_item.ani #pd-image #pd-slide-up{
+    bottom: 0px;
+}
+.product_item #pd-image #pd-order span{
+    position: relative; clear: both; margin-left: 60px; top: 8px; color: #ffffff;
+    text-decoration: none;
+}
+.product_item div#pd-title > span{
+    position: relative; clear: both; display: block;margin: 4px 0px 3px 10px;
+}
+.product_item div#pd-title > a#pd-name{
+    text-transform: uppercase; color: #428bca; font-weight: bold;      
+}
+.product_item div#pd-title > span#pd-price{ color: #565656;}
+.product_item div#pd-title > div#pd-info{ display: none;}
+/* ----- Start: animation ----- */
+.product_item #pd-image img{
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    transition: transform 0.3s ease-in;  
+}
+.product_item.ani #pd-image img{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);
+    
+}
+
+/* ----- End: animation ----- */
+/* ---------------- End: Product ---------------- */
+/* ---------------- Start: Seperated line ---------------- */
+.title_line { 
+    position: relative; clear: both; width: 100%; margin-bottom: 10px;
+}
+.title_line > div{ position: relative; clear: both;}
+.title_line #the_title{ 
+    color: #3c3c3c; text-transform: uppercase; font-size: 18px;
+    border-bottom: 1px solid #dedede;
+}
+.title_line #second_line{
+    position: absolute; width:30%; height: 1px; bottom:0px; background: #0095e6; 
+    /* box-shadow: 0px 0px 10px #0095e6;-webkit-box-shadow: 0px 0px 10px #0095e6; -moz-box-shadow: 0px 0px 10px #0095e6; 
+    -webkit-box-shadow: 0px 0px 3px #0095e6; -moz-box-shadow: 0px 0px 3px #0095e6;*/      
+}
+/* ---------------- Start: Seperated line ---------------- */
+
+/* ----------------------- Start: body ----------------------- */
+
+/* ----------------------- Start: footer ----------------------- */
+
+#footer{
+	min-height:200px; 
+}
+
+/* ----------------------- End: footer ----------------------- */
+/*----------------------- Start: Popup ----------------------- */
+.popup-wrapper{
+    position: fixed; width: 100%; height:100%; top: 0; left: 0;
+    background: rgba(0,0,0,0.4);display: none; z-index:1000;
+    -webkit-transform: translate3d(0,0,200px); -o-transform: translate3d(0,0,200px);
+    -moz-transform: translate3d(0,0,200px); transform: translate3d(0,0,200px);
+}
+.popup-wrapper .popup{
+    position: relative; clear: both; overflow: hidden; 
+    margin: 0px auto 0px auto; background: #ffffff; border-radius: 12px;
+    -webkit-border-radius: 12px; -moz-border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5); -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    display: none;
+}
+.popup-wrapper #alert{
+    width: 250px; margin: 18% auto 0px auto;
+}
+.popup-wrapper #alert > div{
+    position: relative; clear: both; width: 96%; margin: 10px auto;
+}
+.popup-wrapper #alert div#al-title{ 
+    font-size: 20px; color:#428bca; text-align: center;
+}
+.popup-wrapper #alert div#al-content{ 
+    font-size: 16px; color:#565656; text-align: center;
+}
+.popup-wrapper #alert div#al-btn-wrapper{ width: 80px;}
+.popup-wrapper #alert div#al-button{ width: 80px; height: 36px;}
+.popup-wrapper #show-image{
+    position: relative; clear: both; margin: 0 auto; 
+}
+.popup-wrapper #slider_container{
+    position: relative; margin: 0px 5px 5px 0px; float: left;overflow: hidden;
+    z-index: 1;
+}
+.popup-wrapper #slider_container .slides{
+    cursor: move; position: absolute; overflow: hidden;
+}
+.popup-wrapper #slider_container .arrow{
+    position: absolute; width: 40px; height: 40px; top: 122px; z-index: 10;opacity: 0.3;
+}
+.popup-wrapper #slider_container .arrow:hover{ opacity: 0.7}
+.popup-wrapper #slider_container #arrow-left{
+     left: 8px;
+     background: url(../images/arrow.png) no-repeat -130px -41px;
+}
+.popup-wrapper #slider_container #arrow-right{
+     right: 8px;
+     background: url(../images/arrow.png) no-repeat -191px -41px;
+}
+.popup-wrapper #show-image #im-close{
+    position: absolute; width: 60px; height: 30px; right: 4px; bottom: 4px;
+    text-align: center; font-size: 14px; line-height: 24px;
+    cursor: pointer; color: #428bca;
+}
+.popup-wrapper #slider_container .navigator{
+    position: absolute; z-index: 10;
+}
+.popup-wrapper #slider_container .navigator > div{
+    POSITION: absolute; text-align:center; line-height:19px; color:White; font-size:12px;
+    border-radius: 50%; background: #8f8f8f; opacity: 0.1;
+}
+.popup-wrapper #slider_container .navigator > div.av{
+    opacity: 0.4;
+}
+.popup-wrapper #slider_container img{
+    position: relative; clear: both; display: block; margin: 0 auto;
+}
+/*----------------------- End: Popup ----------------------- */
+/* -----------------------Start: media query ----------------------- */
+/*
+@media (max-width: 767px) {
+    .container{ width: 100%;}
+	#header{
+	min-height:60px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{ width: 100%;}
+	#header{
+		min-height:80px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{ width: 100%;}
+	#header{
+		min-height:90px;
+	}
+}
+@media (min-width: 1200px) {
+    
+	#main-slide{
+		width:100%;
+	}
+}*/
+@media (max-width: 767px) {
+    .container{ width: 1190px !important; max-width: 1190px;}
+	#header{
+	//min-height:60px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{ width: 1190px !important; max-width: 1190px;}
+	#header{
+		//min-height:80px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{ width: 1190px !important; max-width: 1190px;}
+	#header{
+		//min-height:90px;
+	}
+}
+@media (min-width: 1200px) {
+    
+	#main-slide{
+		//width:1190px;
+	}
+}
+
+/* -----------------------End: media query ----------------------- */

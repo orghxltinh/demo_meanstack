@@ -1,0 +1,35 @@
+<div class="one-clear" ng-show="main_board">
+    <a href="/admin#/phones/create" class="pull-right" ng-click="createClick(data,$event)">Create New Phone</a>
+    <div id="admin-phones-list" class="one-clear" ng-repeat="data in datas" >
+        <div class="one-clear">{{data.name}}</div>
+        <a href="#" ng-click="updateClick(data,$event)">Update</a>
+        <a href="#" ng-click="deleteClick(data,$event)">Delete</a>
+    </div>    
+</div>
+
+<div id="admin-phones-update ng-hide" ng-show="update_board">
+    <input id="udId" type="hidden" ng-model="udId" />
+    <div class="one-clear">
+        <label for="udName">Name</label>
+        <input id="udName" type="text" ng-model="udName" />
+    </div>
+    
+    <div class="one-clear">
+        <label for="udPrice">Price</label>
+        <input id="udPrice" type="text" ng-model="udPrice" />
+    </div>
+    
+    <div class="one-clear">
+        <label for="udImage">Image</label>
+        <input id="udImage" type="text" ng-model="udImage" />
+    </div>
+    
+    <div class="one-clear">
+        <label for="udQuantity">Quantity</label>
+        <input id="udQuantity" type="text" ng-model="udQuantity" />
+    </div>
+    
+    <div class="one-clear">
+        <input type="button" ng-click="updatePhone()" value="Update" />
+    </div>
+</div>

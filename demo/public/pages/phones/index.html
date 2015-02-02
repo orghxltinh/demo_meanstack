@@ -1,0 +1,11 @@
+<div class="one-clear">
+    <div class="product one-left col-xs-3" ng-repeat="phone in phones">
+        <div class="image one-clear" >
+            <img src="/uploads/{{phone._id}}/{{phone.image}}" />
+        </div>
+        <div class="info one-clear">
+            <div class="name one-clear">Name: <a href="#/view/{{phone._id}}">{{phone.name}}</a></div>
+        </div>
+        
+    </div>
+</div>

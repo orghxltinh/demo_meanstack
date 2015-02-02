@@ -1,0 +1,21 @@
+<form id="phoneForm" enctype="multipart/form-data" method="post">
+    <div class="one-clear">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" ng-model="name" />
+    </div>
+    <div class="one-clear">
+        <label for="price">Price</label>
+        <input id="price" type="text" name="price" ng-model="price" />
+    </div>
+    <div class="one-clear">
+        <label for="image">Image</label>
+        <input id="image" type="file" name="image" />
+    </div>
+    <div class="one-clear">
+        <label for="quantity">Quantity</label>
+        <input id="quantity" type="text" name="quantity" ng-model="quantity" />
+    </div>
+    <div class="one-clear">
+        <input type="button" value="submit" ng-click="submitAction()" />
+    </div>
+</form>
